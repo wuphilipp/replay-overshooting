@@ -1,0 +1,19 @@
+repos:
+-   repo: https://github.com/myint/autoflake.git
+    rev: master
+    hooks:
+    -   id: autoflake
+        args: ["--in-place", "--remove-all-unused-imports", "--ignore-init-module-imports"]
+-   repo: https://github.com/timothycrosley/isort
+    rev: master
+    hooks:
+    -   id: isort
+-   repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+    -   id: black
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: master
+    hooks:
+    -   id: flake8
+        additional_dependencies: [flake8-docstrings]
