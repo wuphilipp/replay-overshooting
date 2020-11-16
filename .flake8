@@ -1,0 +1,4 @@
+[flake8]
+ignore = D100, D103, D104, D401, E203, E501, E741, F401, W503
+exclude = tests/*, scripts/*
+docstring-convention = numpy

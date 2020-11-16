@@ -1,0 +1,29 @@
+# vim
+*.swp
+
+# python
+*__pycache__
+*.ipynb_checkpoints
+*.pyc
+*.hypothesis
+*.mypy_cache
+*.egg-info
+
+# torch
+runs
+logs
+test_exp
+
+# visuals
+summary_plots
+plots
+checkpoints
+ckpt
+celeba_data
+*.gif
+*.png
+*.pdf
+
+# data
+*.pkl
+metadata
