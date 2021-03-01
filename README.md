@@ -118,6 +118,6 @@ Please cite our paper if relevant!
     Extended Kalman Filter},
     author={A. {Li} and P. {Wu} and M. {Kennedy}},
     booktitle={2021 International Conference on Robotics and Automation (ICRA)},
-    year={2021}
+    year={2021},
 }
 ```

@@ -22,6 +22,7 @@ setuptools.setup(
     install_requires=[
         "fannypack",
         "numpy",
+        "scipy>=1.4.1",
         "matplotlib",
         "sdeint>=0.2.1",
         "tensorboard>=2.2.0",
