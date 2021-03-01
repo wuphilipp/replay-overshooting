@@ -9,6 +9,8 @@ Conference on Robotics and Automation (ICRA) 2021:
          Replay Overshooting: Learning Stochastic Latent
          Dynamics with the Extended Kalman Filter
     </strong>
+    Proceedings of the International Conference on Robotics and Autonomation
+    (ICRA) 2021.
 </blockquote>
 
 ### Minimal Setup
@@ -107,3 +109,15 @@ will be a CUDA `illegal memory access` error. This is a known [pytorch issue](ht
 but not something we can directly resolve. If this occurs, try changing the
 random seed.
 
+
+### Bibtex
+Please cite our paper if relevant!
+```
+@inproceedings{liwu_2021ReplayOvershooting
+    title={{Replay Overshooting}: Learning Stochastic Latent Dynamics with the
+    Extended Kalman Filter},
+    author={A. {Li} and P. {Wu} and M. {Kennedy}},
+    booktitle={2021 International Conference on Robotics and Automation (ICRA)},
+    year={2021}
+}
+```
