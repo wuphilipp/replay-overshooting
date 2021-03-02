@@ -113,7 +113,8 @@ random seed.
 ### Bibtex
 Please cite our paper if relevant!
 ```
-@inproceedings{liwu_2021ReplayOvershooting
+@inproceedings{
+    liwu_2021ReplayOvershooting,
     title={{Replay Overshooting}: Learning Stochastic Latent Dynamics with the
     Extended Kalman Filter},
     author={A. {Li} and P. {Wu} and M. {Kennedy}},
